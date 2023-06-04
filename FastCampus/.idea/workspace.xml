@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="146c5c4a-d56a-4aac-92ef-0d85e052acb3" name="Changes" comment="&quot;에휴&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_0602/ArrayBasicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0602/ArrayBasicTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,24 +27,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/minzi/Desktop/study_hard/backend/java_fastCam/FastCampus",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/minzi/Desktop/study_hard/backend/java_fastCam/FastCampus&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\minzi\Desktop\study_hard\backend\JAVA_FastCampus\FastCampus\src\Java_0602" />
       <recent name="C:\Users\minzi\Desktop\study_hard\backend\JAVA_FastCampus\FastCampus\src" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Java_0604" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayExam">
+  <component name="RunManager" selected="Application.BasicArrayTest">
     <configuration name="ArrayBasicTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_0602.ArrayBasicTest" />
       <module name="FastCampus" />
@@ -85,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_0602.BookExam" />
+    <configuration name="BasicArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_0604.BasicArrayTest" />
       <module name="FastCampus" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_0602.*" />
+          <option name="PATTERN" value="Java_0604.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BasicArrayTest" />
         <item itemvalue="Application.ArrayExam" />
         <item itemvalue="Application.ArrayMake" />
         <item itemvalue="Application.ArrayBasicTest" />
         <item itemvalue="Application.MovieTest" />
-        <item itemvalue="Application.BookExam" />
       </list>
     </recent_temporary>
   </component>
