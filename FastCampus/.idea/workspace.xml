@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="146c5c4a-d56a-4aac-92ef-0d85e052acb3" name="Changes" comment="&quot;에휴&quot;" />
+    <list default="true" id="146c5c4a-d56a-4aac-92ef-0d85e052acb3" name="Changes" comment="&quot;에휴&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_0602/ArrayBasicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0602/ArrayBasicTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +32,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/minzi/Desktop/study_hard/backend/JAVA_FastCampus",
+    "last_opened_file_path": "C:/Users/minzi/Desktop/study_hard/backend/java_fastCam/FastCampus",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -42,13 +45,39 @@
       <recent name="C:\Users\minzi\Desktop\study_hard\backend\JAVA_FastCampus\FastCampus\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayBasicTest">
+  <component name="RunManager" selected="Application.ArrayExam">
     <configuration name="ArrayBasicTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_0602.ArrayBasicTest" />
       <module name="FastCampus" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Java_0602.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_0604.ArrayExam" />
+      <module name="FastCampus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_0604.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayMake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_0604.ArrayMake" />
+      <module name="FastCampus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_0604.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,13 +105,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CatstingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_0602.CatstingTest" />
-      <module name="FastCampus" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MovieTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_0602.MovieTest" />
       <module name="FastCampus" />
@@ -96,20 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VDATest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_0602.VDATest" />
-      <module name="FastCampus" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayExam" />
+        <item itemvalue="Application.ArrayMake" />
         <item itemvalue="Application.ArrayBasicTest" />
         <item itemvalue="Application.MovieTest" />
         <item itemvalue="Application.BookExam" />
-        <item itemvalue="Application.CatstingTest" />
-        <item itemvalue="Application.VDATest" />
       </list>
     </recent_temporary>
   </component>
