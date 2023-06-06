@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="146c5c4a-d56a-4aac-92ef-0d85e052acb3" name="Changes" comment="&quot;주말 커밋&quot;">
-      <change afterPath="$PROJECT_DIR$/src/Java_0606/Ex_2_forloop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_0606/Ex_3_While.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_0606/Ex_4_looploop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_0606/Ex_5_breAk_conTinue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_0606/Practice_1.java" afterDir="false" />
+    <list default="true" id="146c5c4a-d56a-4aac-92ef-0d85e052acb3" name="Changes" comment="&quot;중간 커밋 제어문 까지 끝&quot;">
+      <change afterPath="$PROJECT_DIR$/src/Java_0606/Ex_6_makeMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +52,7 @@
       <recent name="Java_0604" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ex_2_forloop">
+  <component name="RunManager" selected="Application.Ex_6_makeMethod">
     <configuration name="Ex_2_forloop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -102,10 +98,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Ex_6_makeMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Java_0606.Practice_1" />
+      <option name="MAIN_CLASS_NAME" value="Java_0606.Ex_6_makeMethod" />
       <module name="FastCampus" />
       <extension name="coverage">
         <pattern>
@@ -117,14 +113,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoDimArrayInit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Java_0604.TwoDimArrayInit" />
+      <option name="MAIN_CLASS_NAME" value="Java_0606.Practice_1" />
       <module name="FastCampus" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_0604.*" />
+          <option name="PATTERN" value="Java_0606.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,16 +183,16 @@
       <item itemvalue="Application.Ex_2_forloop" />
       <item itemvalue="Application.Ex_4_looploop" />
       <item itemvalue="Application.Ex_5_breAk_conTinue" />
+      <item itemvalue="Application.Ex_6_makeMethod" />
       <item itemvalue="Application.Practice_1" />
-      <item itemvalue="Application.TwoDimArrayInit" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex_6_makeMethod" />
         <item itemvalue="Application.Ex_2_forloop" />
         <item itemvalue="Application.Practice_1" />
         <item itemvalue="Application.Ex_5_breAk_conTinue" />
         <item itemvalue="Application.Ex_4_looploop" />
-        <item itemvalue="Application.TwoDimArrayInit" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686052184375</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&quot;중간 커밋 제어문 까지 끝&quot;">
+      <created>1686062472139</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686062472139</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -299,7 +302,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;중간커밋_06.05&quot;" />
     <MESSAGE value="&quot;주말 커밋&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;주말 커밋&quot;" />
+    <MESSAGE value="&quot;중간 커밋 제어문 까지 끝&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;중간 커밋 제어문 까지 끝&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
