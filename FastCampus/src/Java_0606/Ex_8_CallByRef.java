@@ -9,6 +9,7 @@ public class Ex_8_CallByRef {
         
 
     }
+
     //Q. 매개변수로 정수형 배열을 받아서 / 배열의 총합을 구하여 / 리턴하는 / 메서드를 정의하세요
     public static int addArray(int[] a) {
         int sum = 0;
