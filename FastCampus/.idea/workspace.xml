@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="146c5c4a-d56a-4aac-92ef-0d85e052acb3" name="Changes" comment="&quot;접근 제어자 까지&quot;">
-      <change afterPath="$PROJECT_DIR$/src/Java_0607_09/PackageNameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_0607_09/Capsul_personvo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_0607_09/SetGetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/PersonVo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_0606/Ex_14_PersonDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0606/Ex_14_PersonDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_0606/Ex_15_PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0606/Ex_15_PersonTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +58,7 @@
       <recent name="Java_0604" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AccessModifier">
+  <component name="RunManager" selected="Application.Ex_15_PersonTest">
     <configuration name="AccessModifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -70,10 +74,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarUtility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Capsul_personvo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Java_0607_09.CarUtility" />
+      <option name="MAIN_CLASS_NAME" value="Java_0607_09.Capsul_personvo" />
       <module name="FastCampus" />
       <extension name="coverage">
         <pattern>
@@ -85,25 +89,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Ex_15_PersonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Java_0607_09.DD" />
-      <module name="FastCampus" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_0607_09.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex_8_CallByRef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Java_0606.Ex_8_CallByRef" />
+      <option name="MAIN_CLASS_NAME" value="Java_0606.Ex_15_PersonTest" />
       <module name="FastCampus" />
       <extension name="coverage">
         <pattern>
@@ -119,6 +108,21 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Java_0607_09.PersonAccessTest" />
+      <module name="FastCampus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_0607_09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetGetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Java_0607_09.SetGetTest" />
       <module name="FastCampus" />
       <extension name="coverage">
         <pattern>
@@ -183,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex_15_PersonTest" />
+        <item itemvalue="Application.Capsul_personvo" />
+        <item itemvalue="Application.SetGetTest" />
         <item itemvalue="Application.AccessModifier" />
         <item itemvalue="Application.PersonAccessTest" />
-        <item itemvalue="Application.DD" />
-        <item itemvalue="Application.CarUtility" />
-        <item itemvalue="Application.Ex_8_CallByRef" />
       </list>
     </recent_temporary>
   </component>

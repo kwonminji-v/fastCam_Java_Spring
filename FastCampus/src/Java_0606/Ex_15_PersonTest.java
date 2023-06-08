@@ -8,12 +8,10 @@ public class Ex_15_PersonTest {
         //객체 p가 생성된 후 , new 연산자와 생성자 메서드()로 실체를 생성하였고, 생성된 객체를 변수에 할당하였습니다.
 
         Ex_14_PersonDTO p = new Ex_14_PersonDTO();
-        p.name = "홍길동";
-        p.age = 30;
-        p.phone = "010-1234-5678";
+        p.setName("권민지");
 
         //객체를 생성 후 dot연산자를 이용해서 데이터에 접근 후 출력해보았다.
-        System.out.println(p.name + "\t" + p.age + "\t" + p.phone);
+        System.out.println(p.getName());
 
         p.play();
         p.eat();
