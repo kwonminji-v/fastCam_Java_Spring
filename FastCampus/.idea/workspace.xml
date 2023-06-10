@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="146c5c4a-d56a-4aac-92ef-0d85e052acb3" name="Changes" comment="&quot;접근 제어자 까지&quot;">
-      <change afterPath="$PROJECT_DIR$/src/Java_0607_09/BestVOModeling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_0607_09/ToStringPrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/MovieVO.java" afterDir="false" />
+    <list default="true" id="146c5c4a-d56a-4aac-92ef-0d85e052acb3" name="Changes" comment="&quot;모델링 잘해보기 VO&quot;">
+      <change afterPath="$PROJECT_DIR$/src/Java_0607_09/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/StudentVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_0607_09/Capsul_personvo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0607_09/Capsul_personvo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_0607_09/PackageNameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0607_09/PackageNameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/PersonVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/PersonVo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +55,7 @@
       <recent name="Java_0604" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BestVOModeling">
+  <component name="RunManager" selected="Application.StudentTest">
     <configuration name="BestVOModeling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -90,10 +86,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonAccessTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="SetGetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Java_0607_09.PersonAccessTest" />
+      <option name="MAIN_CLASS_NAME" value="Java_0607_09.SetGetTest" />
       <module name="FastCampus" />
       <extension name="coverage">
         <pattern>
@@ -105,10 +101,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetGetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Java_0607_09.SetGetTest" />
+      <option name="MAIN_CLASS_NAME" value="Java_0607_09.StudentTest" />
       <module name="FastCampus" />
       <extension name="coverage">
         <pattern>
@@ -188,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentTest" />
         <item itemvalue="Application.BestVOModeling" />
         <item itemvalue="Application.ToStringPrint" />
         <item itemvalue="Application.Capsul_personvo" />
         <item itemvalue="Application.SetGetTest" />
-        <item itemvalue="Application.PersonAccessTest" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686315735413</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="&quot;모델링 잘해보기 VO&quot;">
+      <created>1686372469380</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686372469380</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -333,7 +336,8 @@
     <MESSAGE value="&quot;중간 커밋 제어문 까지 끝&quot;" />
     <MESSAGE value="&quot;최종 06.06&quot;" />
     <MESSAGE value="&quot;접근 제어자 까지&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;접근 제어자 까지&quot;" />
+    <MESSAGE value="&quot;모델링 잘해보기 VO&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;모델링 잘해보기 VO&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
