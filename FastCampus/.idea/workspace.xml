@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="146c5c4a-d56a-4aac-92ef-0d85e052acb3" name="Changes" comment="&quot;접근 제어자 까지&quot;">
-      <change afterPath="$PROJECT_DIR$/src/Java_0607_09/Capsul_personvo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_0607_09/SetGetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/PersonVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_0607_09/BestVOModeling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_0607_09/ToStringPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/MovieVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_0606/Ex_14_PersonDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0606/Ex_14_PersonDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_0606/Ex_15_PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0606/Ex_15_PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_0607_09/Capsul_personvo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0607_09/Capsul_personvo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_0607_09/PackageNameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0607_09/PackageNameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/PersonVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/PersonVo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,11 +59,11 @@
       <recent name="Java_0604" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ex_15_PersonTest">
-    <configuration name="AccessModifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.BestVOModeling">
+    <configuration name="BestVOModeling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Java_0607_09.AccessModifier" />
+      <option name="MAIN_CLASS_NAME" value="Java_0607_09.BestVOModeling" />
       <module name="FastCampus" />
       <extension name="coverage">
         <pattern>
@@ -89,21 +90,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex_15_PersonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Java_0606.Ex_15_PersonTest" />
-      <module name="FastCampus" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_0606.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PersonAccessTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -123,6 +109,21 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Java_0607_09.SetGetTest" />
+      <module name="FastCampus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_0607_09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToStringPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Java_0607_09.ToStringPrint" />
       <module name="FastCampus" />
       <extension name="coverage">
         <pattern>
@@ -187,10 +188,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ex_15_PersonTest" />
+        <item itemvalue="Application.BestVOModeling" />
+        <item itemvalue="Application.ToStringPrint" />
         <item itemvalue="Application.Capsul_personvo" />
         <item itemvalue="Application.SetGetTest" />
-        <item itemvalue="Application.AccessModifier" />
         <item itemvalue="Application.PersonAccessTest" />
       </list>
     </recent_temporary>
@@ -246,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686152739513</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="&quot;접근 제어자 까지&quot;">
+      <created>1686315735411</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686315735413</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
