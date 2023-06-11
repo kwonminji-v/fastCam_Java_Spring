@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="146c5c4a-d56a-4aac-92ef-0d85e052acb3" name="Changes" comment="&quot;배열 / 클래스란&quot;">
-      <change afterPath="$PROJECT_DIR$/src/Java_0607_09/StaticTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_0607_09/StudentArrayTest.java" afterDir="false" />
+    <list default="true" id="146c5c4a-d56a-4aac-92ef-0d85e052acb3" name="Changes" comment="&quot;static 메모리구조&quot;">
+      <change afterPath="$PROJECT_DIR$/src/Java_0607_09/NoneStaticAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_0607_09/StaticAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_0612_15/AllStaticTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/AllStatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Myutil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Myutil1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,15 +55,61 @@
       <recent name="C:\Users\minzi\Desktop\study_hard\backend\JAVA_FastCampus\FastCampus\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="model" />
       <recent name="Java_0607_09" />
       <recent name="Java_0604" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StaticTest">
-    <configuration name="BestVOModeling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.AllStaticTest">
+    <configuration name="AllStaticTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Java_0607_09.BestVOModeling" />
+      <option name="MAIN_CLASS_NAME" value="Java_0612_15.AllStaticTest" />
+      <module name="FastCampus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_0612_15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NoneStaticAccess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Java_0607_09.NoneStaticAccess" />
+      <module name="FastCampus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_0607_09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NoneStaticTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Java_0607_09.NoneStaticTest" />
+      <module name="FastCampus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_0607_09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticAccess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Java_0607_09.StaticAccess" />
       <module name="FastCampus" />
       <extension name="coverage">
         <pattern>
@@ -75,51 +125,6 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Java_0607_09.StaticTest" />
-      <module name="FastCampus" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_0607_09.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Java_0607_09.StudentArrayTest" />
-      <module name="FastCampus" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_0607_09.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Java_0607_09.StudentTest" />
-      <module name="FastCampus" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_0607_09.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ToStringPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Java_0607_09.ToStringPrint" />
       <module name="FastCampus" />
       <extension name="coverage">
         <pattern>
@@ -184,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AllStaticTest" />
+        <item itemvalue="Application.NoneStaticAccess" />
+        <item itemvalue="Application.StaticAccess" />
+        <item itemvalue="Application.NoneStaticTest" />
         <item itemvalue="Application.StaticTest" />
-        <item itemvalue="Application.StudentArrayTest" />
-        <item itemvalue="Application.StudentTest" />
-        <item itemvalue="Application.BestVOModeling" />
-        <item itemvalue="Application.ToStringPrint" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686375456159</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="&quot;static 메모리구조&quot;">
+      <created>1686463224317</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1686463224317</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -345,7 +357,8 @@
     <MESSAGE value="&quot;접근 제어자 까지&quot;" />
     <MESSAGE value="&quot;모델링 잘해보기 VO&quot;" />
     <MESSAGE value="&quot;배열 / 클래스란&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;배열 / 클래스란&quot;" />
+    <MESSAGE value="&quot;static 메모리구조&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;static 메모리구조&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
