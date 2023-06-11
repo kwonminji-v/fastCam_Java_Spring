@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="146c5c4a-d56a-4aac-92ef-0d85e052acb3" name="Changes" comment="&quot;모델링 잘해보기 VO&quot;">
-      <change afterPath="$PROJECT_DIR$/src/Java_0607_09/StudentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/StudentVO.java" afterDir="false" />
+    <list default="true" id="146c5c4a-d56a-4aac-92ef-0d85e052acb3" name="Changes" comment="&quot;배열 / 클래스란&quot;">
+      <change afterPath="$PROJECT_DIR$/src/Java_0607_09/StaticTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_0607_09/StudentArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +55,7 @@
       <recent name="Java_0604" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StudentTest">
+  <component name="RunManager" selected="Application.StaticTest">
     <configuration name="BestVOModeling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -71,10 +71,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Capsul_personvo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="StaticTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Java_0607_09.Capsul_personvo" />
+      <option name="MAIN_CLASS_NAME" value="Java_0607_09.StaticTest" />
       <module name="FastCampus" />
       <extension name="coverage">
         <pattern>
@@ -86,10 +86,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetGetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Java_0607_09.SetGetTest" />
+      <option name="MAIN_CLASS_NAME" value="Java_0607_09.StudentArrayTest" />
       <module name="FastCampus" />
       <extension name="coverage">
         <pattern>
@@ -184,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StaticTest" />
+        <item itemvalue="Application.StudentArrayTest" />
         <item itemvalue="Application.StudentTest" />
         <item itemvalue="Application.BestVOModeling" />
         <item itemvalue="Application.ToStringPrint" />
-        <item itemvalue="Application.Capsul_personvo" />
-        <item itemvalue="Application.SetGetTest" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686372469380</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="&quot;배열 / 클래스란&quot;">
+      <created>1686375456159</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686375456159</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -337,7 +344,8 @@
     <MESSAGE value="&quot;최종 06.06&quot;" />
     <MESSAGE value="&quot;접근 제어자 까지&quot;" />
     <MESSAGE value="&quot;모델링 잘해보기 VO&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;모델링 잘해보기 VO&quot;" />
+    <MESSAGE value="&quot;배열 / 클래스란&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;배열 / 클래스란&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
