@@ -12,7 +12,5 @@ public class AccessModifier {
         System.out.println("m.age = " + m.name);
         m.play();
 
-
-
     }
 }
