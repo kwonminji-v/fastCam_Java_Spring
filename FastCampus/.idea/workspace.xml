@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="146c5c4a-d56a-4aac-92ef-0d85e052acb3" name="Changes" comment="&quot;Class, Object, Instance&quot;" />
+    <list default="true" id="146c5c4a-d56a-4aac-92ef-0d85e052acb3" name="Changes" comment="&quot;상속_super();&quot;">
+      <change afterPath="$PROJECT_DIR$/src/Java_0612_15/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_0612_15/EmployeeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_0612_15/RempVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,18 +33,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/minzi/Desktop/study_hard/backend/SPRING/hello-spring/build.gradle&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/minzi/Desktop/study_hard/backend/java_fastCam/FastCampus",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\backend\Java\FastCampus\FastCampus\src\Java_0606" />
@@ -52,7 +57,7 @@
       <recent name="Java_0604" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ex_1_classObjectInstance">
+  <component name="RunManager" selected="Application.EmployeeTest">
     <configuration name="AccessModifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -83,6 +88,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Java_0612_15.EmployeeTest" />
+      <module name="FastCampus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_0612_15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ex_1_classObjectInstance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -102,21 +122,6 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Java_0607_09.NoneStaticAccess" />
-      <module name="FastCampus" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_0607_09.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StaticAccess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Java_0607_09.StaticAccess" />
       <module name="FastCampus" />
       <extension name="coverage">
         <pattern>
@@ -181,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmployeeTest" />
         <item itemvalue="Application.Ex_1_classObjectInstance" />
         <item itemvalue="Application.AccessModifier" />
         <item itemvalue="Application.AllStaticTest" />
         <item itemvalue="Application.NoneStaticAccess" />
-        <item itemvalue="Application.StaticAccess" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686539958662</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="&quot;상속_super();&quot;">
+      <created>1686581045920</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1686581045920</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -358,7 +370,8 @@
     <MESSAGE value="&quot;배열 / 클래스란&quot;" />
     <MESSAGE value="&quot;static 메모리구조&quot;" />
     <MESSAGE value="&quot;Class, Object, Instance&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Class, Object, Instance&quot;" />
+    <MESSAGE value="&quot;상속_super();&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;상속_super();&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
