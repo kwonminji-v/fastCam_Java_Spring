@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="146c5c4a-d56a-4aac-92ef-0d85e052acb3" name="Changes" comment="&quot;static 메모리구조&quot;">
-      <change afterPath="$PROJECT_DIR$/src/Java_0612_15/Ex_1_classObjectInstance.java" afterDir="false" />
+    <list default="true" id="146c5c4a-d56a-4aac-92ef-0d85e052acb3" name="Changes" comment="&quot;Class, Object, Instance&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_0607_09/AccessModifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0607_09/AccessModifier.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686463224317</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="&quot;Class, Object, Instance&quot;">
+      <created>1686539958662</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1686539958662</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -354,7 +359,8 @@
     <MESSAGE value="&quot;모델링 잘해보기 VO&quot;" />
     <MESSAGE value="&quot;배열 / 클래스란&quot;" />
     <MESSAGE value="&quot;static 메모리구조&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;static 메모리구조&quot;" />
+    <MESSAGE value="&quot;Class, Object, Instance&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Class, Object, Instance&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
