@@ -3,17 +3,12 @@ package Java_0612_15;
 public class EmployeeTest {
     public static void main(String[] args) {
         // 일반 사원 한명의 객체를 생성하고 데이터를 저장 후 출력을 하세요.
-        RempVO vo = new RempVO();
+        RempVO vo = new RempVO("고길동",31,"111-1111-1111","2012-03-23","IT부서",false);
         // vo의 타입은 RempVO가 되며, 상속을 통해 Employee를 포함한 전체 메모리에 접근이 가능해집니다.
-        vo.name = "홍길동";
-        vo.age = 31;
-        vo.phone = "111-1111-1111";
-        vo.empDate = "2012-09-12";
-        vo.dept = "IT팀";
-        vo.marriage = false;
 
 
-        System.out.println(vo.name+"\t" + vo.age+"\t"+vo.phone+"\t"+vo.empDate+"\t"+vo.dept+"\t"+vo.marriage);
+
+//        System.out.println(vo.name+"\t" + vo.age+"\t"+vo.phone+"\t"+vo.empDate+"\t"+vo.dept+"\t"+vo.marriage);
 
         System.out.println(vo.toString());
 

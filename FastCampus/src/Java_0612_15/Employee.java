@@ -11,7 +11,17 @@ public class Employee {
     private boolean marriage;
 
     public Employee() {
-        super();  //  상위 클래스의 생성자를 호출하는 역할 (객체가 생성되려면 생성자가 호출되어야 생성이 가능 / 여기서는 new Object가 호출되는 것)
+        super();
+        // 상위 클래스의 생성자를 호출하는 역할 (객체가 생성되려면 생성자가 호출되어야 생성이 가능 / 여기서는 new Object가 호출되는 것)
+    }
+
+    public Employee(String name, int age, String phone, String empDate, String dept, boolean marriage) {
+        this.name = name;
+        this.age = age;
+        this.phone = phone;
+        this.empDate = empDate;
+        this.dept = dept;
+        this.marriage = marriage;
     }
 
     @Override

@@ -8,12 +8,9 @@ public class RempVO extends Employee { //자식 클래스가 부모 클래스의
 
         public  RempVO(String name, int age, String phone,String empDate,String dept, boolean marriage){
             //초기화를 진행(자식이 부모의 기억공간에 초기화를 하는 경우)
-            this.name = name;
-            this.age = age;
-            this.phone = phone;
-            this.empDate = empDate;
-            this.dept = dept;
-            this.marriage = marriage;
+           super(name,age,phone,empDate,dept,marriage);
+           //부모 클래스를 가리키는 포인터인 super()를 사용하여 ()안에 부모 클래스안의 상태변수를 작성하여 초기화하 생성자를 호출
+            
         }
 
 
