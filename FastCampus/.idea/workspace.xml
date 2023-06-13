@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="146c5c4a-d56a-4aac-92ef-0d85e052acb3" name="Changes" comment="&quot;상속_super();&quot;">
-      <change afterPath="$PROJECT_DIR$/src/Java_0612_15/AnimalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_0612_15/AnimalUpcastingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Dog.java" afterDir="false" />
+    <list default="true" id="146c5c4a-d56a-4aac-92ef-0d85e052acb3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_0612_15/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0612_15/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Java_0612_15/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0612_15/EmployeeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_0612_15/RempVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0612_15/RempVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Dog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -292,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686581045920</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="&quot;Upcasting,Downcasting&quot;">
+      <created>1686637479792</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1686637479792</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -376,7 +377,8 @@
     <MESSAGE value="&quot;static 메모리구조&quot;" />
     <MESSAGE value="&quot;Class, Object, Instance&quot;" />
     <MESSAGE value="&quot;상속_super();&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;상속_super();&quot;" />
+    <MESSAGE value="&quot;Upcasting,Downcasting&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Upcasting,Downcasting&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
