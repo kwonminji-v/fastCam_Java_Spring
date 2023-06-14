@@ -11,12 +11,14 @@ public class PolyArrayTest {
 
         //Dog, Cat을 저장할 배열을 생성해보자
         //Animal[] all = {new Dog(), new Cat()};
-        //[다형성 배열을 만들어 보았다.]
+        //2. [다형성 배열을 만들어 보았다.]
         Animal[] all = new Animal[2];
         all[0] = d;
         all[1] = c;
+        display(all);
+    }
 
-
+    public static void display(Animal[] all) {
         for (int i = 0; i < all.length; i++) {
             all[i].eat();
             if(all[i] instanceof Cat)

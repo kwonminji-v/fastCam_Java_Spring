@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="146c5c4a-d56a-4aac-92ef-0d85e052acb3" name="Changes" comment="&quot;다형성 시작&quot;">
-      <change afterPath="$PROJECT_DIR$/src/Java_0612_15/PolyArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_0612_15/PolyMethodTest.java" afterDir="false" />
+    <list default="true" id="146c5c4a-d56a-4aac-92ef-0d85e052acb3" name="Changes" comment="&quot;인터페이스&quot;">
+      <change afterPath="$PROJECT_DIR$/src/Java_0612_15/AbstractClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_0612_15/IsNotOverride.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Poly/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Poly/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Poly/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_0612_15/OverrideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0612_15/OverrideTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_0612_15/PolyArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0612_15/PolyArrayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +54,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Administrator/Desktop/hello-spring/build.gradle",
+    "last_opened_file_path": "D:/backend/Java/FastCampus/FastCampus/src/Poly",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -60,6 +62,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\backend\Java\FastCampus\FastCampus\src\Poly" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\backend\Java\FastCampus\FastCampus\src\Java_0606" />
       <recent name="C:\Users\minzi\Desktop\study_hard\backend\JAVA_FastCampus\FastCampus\src\Java_0602" />
@@ -71,11 +76,26 @@
       <recent name="Java_0604" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PolyArrayTest">
-    <configuration name="ObjectCasting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.AbstractClassTest">
+    <configuration name="AbstractClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Java_0612_15.ObjectCasting" />
+      <option name="MAIN_CLASS_NAME" value="Java_0612_15.AbstractClassTest" />
+      <module name="FastCampus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_0612_15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsNotOverride" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Java_0612_15.IsNotOverride" />
       <module name="FastCampus" />
       <extension name="coverage">
         <pattern>
@@ -121,21 +141,6 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Java_0612_15.PolyMethodTest" />
-      <module name="FastCampus" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_0612_15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PolyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Java_0612_15.PolyTest" />
       <module name="FastCampus" />
       <extension name="coverage">
         <pattern>
@@ -200,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AbstractClassTest" />
+        <item itemvalue="Application.IsNotOverride" />
         <item itemvalue="Application.PolyArrayTest" />
         <item itemvalue="Application.OverrideTest" />
         <item itemvalue="Application.PolyMethodTest" />
-        <item itemvalue="Application.PolyTest" />
-        <item itemvalue="Application.ObjectCasting" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686666271368</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="&quot;다형성인수, 배열&quot;">
+      <created>1686711324396</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1686711324396</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -408,7 +420,9 @@
     <MESSAGE value="&quot;상속_super();&quot;" />
     <MESSAGE value="&quot;Upcasting,Downcasting&quot;" />
     <MESSAGE value="&quot;다형성 시작&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;다형성 시작&quot;" />
+    <MESSAGE value="&quot;다형성인수, 배열&quot;" />
+    <MESSAGE value="&quot;인터페이스&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;인터페이스&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
