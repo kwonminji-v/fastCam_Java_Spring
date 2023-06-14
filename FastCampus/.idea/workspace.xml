@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="146c5c4a-d56a-4aac-92ef-0d85e052acb3" name="Changes" comment="&quot;다형성 시작&quot;">
-      <change afterPath="$PROJECT_DIR$/src/Java_0612_15/PolyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_0612_15/PolyArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_0612_15/PolyMethodTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_0612_15/OverrideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0612_15/OverrideTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Cat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +26,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="9b4e136c-4001-4693-a8e8-1169402521c2" />
+        <option name="url" value="https://github.com/minji6313/java_fastCam.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
@@ -36,7 +52,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/minzi/Desktop/study_hard/backend/java_fastCam/FastCampus",
+    "last_opened_file_path": "C:/Users/Administrator/Desktop/hello-spring/build.gradle",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -55,37 +71,7 @@
       <recent name="Java_0604" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PolyTest">
-    <configuration name="AnimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Java_0612_15.AnimalTest" />
-      <module name="FastCampus" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_0612_15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnimalUpcastingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Java_0612_15.AnimalUpcastingTest" />
-      <module name="FastCampus" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_0612_15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PolyArrayTest">
     <configuration name="ObjectCasting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -105,6 +91,36 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Java_0612_15.OverrideTest" />
+      <module name="FastCampus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_0612_15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PolyArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Java_0612_15.PolyArrayTest" />
+      <module name="FastCampus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_0612_15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PolyMethodTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Java_0612_15.PolyMethodTest" />
       <module name="FastCampus" />
       <extension name="coverage">
         <pattern>
@@ -184,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PolyArrayTest" />
+        <item itemvalue="Application.OverrideTest" />
+        <item itemvalue="Application.PolyMethodTest" />
         <item itemvalue="Application.PolyTest" />
         <item itemvalue="Application.ObjectCasting" />
-        <item itemvalue="Application.OverrideTest" />
-        <item itemvalue="Application.AnimalUpcastingTest" />
-        <item itemvalue="Application.AnimalTest" />
       </list>
     </recent_temporary>
   </component>
