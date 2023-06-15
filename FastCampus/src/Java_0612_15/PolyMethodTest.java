@@ -14,8 +14,6 @@ public class PolyMethodTest {
 
     private static void display(Animal all) {  //Animal ani => 다형성 인수
         all.eat();
-        if(all instanceof Cat) {
-            ((Cat)all).night();
-        }
+
     }
 }

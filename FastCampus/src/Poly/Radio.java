@@ -1,6 +1,6 @@
 package Poly;
 
-public class Radio extends Remocon {
+public class Radio implements Remocon {
     // chUp() , chDown(), volUp(), volDown()
     @Override
     public void chUp() {
@@ -20,6 +20,11 @@ public class Radio extends Remocon {
     @Override
     public void volDown() {
         System.out.println("라디오의 소리가 내려간다.");
+    }
+
+    @Override
+    public void internet() {
+        System.out.println("라디오에서는 인터넷 지원 X");
     }
 
 

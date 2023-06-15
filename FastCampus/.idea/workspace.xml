@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="146c5c4a-d56a-4aac-92ef-0d85e052acb3" name="Changes" comment="&quot;인터페이스_시작&quot;" />
+    <list default="true" id="146c5c4a-d56a-4aac-92ef-0d85e052acb3" name="Changes" comment="&quot;인터페이스_시작&quot;">
+      <change afterPath="$PROJECT_DIR$/src/Java_0612_15/GenericTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_0612_15/ObjectPolyArg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_0612_15/ObjectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_0612_15/ObjectTostring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Poly/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Poly/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Poly/BoardVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/ObjectArr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_0612_15/InterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_0612_15/InterfaceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Poly/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Poly/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Poly/Remocon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Poly/Remocon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Poly/TV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Poly/TV.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,18 +55,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/minzi/Desktop/study_hard/backend/java_fastCam/FastCampus",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/minzi/Desktop/study_hard/backend/java_fastCam/FastCampus&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\backend\Java\FastCampus\FastCampus\src\Poly" />
@@ -68,11 +82,11 @@
       <recent name="Java_0604" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InterfaceTest">
-    <configuration name="AbstractClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.PolyMethodTest">
+    <configuration name="GenericTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Java_0612_15.AbstractClassTest" />
+      <option name="MAIN_CLASS_NAME" value="Java_0612_15.GenericTest" />
       <module name="FastCampus" />
       <extension name="coverage">
         <pattern>
@@ -84,10 +98,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterfaceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ObjectPolyArg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Java_0612_15.InterfaceTest" />
+      <option name="MAIN_CLASS_NAME" value="Java_0612_15.ObjectPolyArg" />
       <module name="FastCampus" />
       <extension name="coverage">
         <pattern>
@@ -99,10 +113,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsNotOverride" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ObjectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Java_0612_15.IsNotOverride" />
+      <option name="MAIN_CLASS_NAME" value="Java_0612_15.ObjectTest" />
       <module name="FastCampus" />
       <extension name="coverage">
         <pattern>
@@ -114,10 +128,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OverrideTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ObjectTostring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Java_0612_15.OverrideTest" />
+      <option name="MAIN_CLASS_NAME" value="Java_0612_15.ObjectTostring" />
       <module name="FastCampus" />
       <extension name="coverage">
         <pattern>
@@ -129,10 +143,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolyArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="PolyMethodTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Java_0612_15.PolyArrayTest" />
+      <option name="MAIN_CLASS_NAME" value="Java_0612_15.PolyMethodTest" />
       <module name="FastCampus" />
       <extension name="coverage">
         <pattern>
@@ -197,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InterfaceTest" />
-        <item itemvalue="Application.AbstractClassTest" />
-        <item itemvalue="Application.IsNotOverride" />
-        <item itemvalue="Application.PolyArrayTest" />
-        <item itemvalue="Application.OverrideTest" />
+        <item itemvalue="Application.PolyMethodTest" />
+        <item itemvalue="Application.ObjectTostring" />
+        <item itemvalue="Application.ObjectTest" />
+        <item itemvalue="Application.ObjectPolyArg" />
+        <item itemvalue="Application.GenericTest" />
       </list>
     </recent_temporary>
   </component>

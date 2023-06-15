@@ -2,6 +2,7 @@ package Java_0612_15;
 
 import Poly.Radio;
 import Poly.Remocon;
+import Poly.TV;
 
 public class InterfaceTest {
     public static void main(String[] args) {
@@ -11,5 +12,15 @@ public class InterfaceTest {
         remo.chDown();
         remo.volUp();
         remo.volDown();
+        remo.internet();
+
+        remo = new TV();
+        remo.chUp();
+        remo.chDown();
+        remo.volUp();
+        remo.volDown();
+        remo.internet();
+
     }
+
 }
