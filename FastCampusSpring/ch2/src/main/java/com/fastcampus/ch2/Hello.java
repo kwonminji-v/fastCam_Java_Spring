@@ -12,7 +12,8 @@ public class Hello {
 	
 	
 	@RequestMapping("/hello")
-	public void main() {  //인스턴스 메서드 - iv, cv 둘 다 사용이 가능
+	//맵핑으로 인해 접근제어자 상관없이 호출할 수 있게 됨
+	private void main() {  //인스턴스 메서드 - iv, cv 둘 다 사용이 가능
 		//void 앞에 static이 없는데 호출이 가능한건 ip주소로 호출하면 인스턴스 메서드를 출력하는데,
 		//객체를 생성 후 호출이 가능하다. 근데 여기선 객체 생성 없이 호출이 되고 있는데, tomcat이 객체 생성을 해주고
 		//이 후 메서드를 호출해줌 
