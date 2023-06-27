@@ -1,0 +1,12 @@
+package com.fastcampus.ch2;
+
+public class YoilTeller {
+
+	public static void main(String[] args) {
+		//1. ют╥б
+		String year = args[0];
+		String month = args[1];
+		String day = args[2];
+	}
+
+}
