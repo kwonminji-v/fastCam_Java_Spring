@@ -767,6 +767,7 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-22 16:00:37.125
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+<<<<<<< HEAD
 !SESSION 2023-06-26 19:12:52.018 -----------------------------------------------
 eclipse.buildId=4.27.0.20230309-1200
 java.version=17.0.7
@@ -2791,3 +2792,5 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-27 20:08:05.034
 !MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+=======
+>>>>>>> 26aa334aca5b587c79c53cf70091921a817081d8

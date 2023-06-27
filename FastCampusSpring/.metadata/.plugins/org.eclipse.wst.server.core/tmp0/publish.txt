@@ -1,3 +1,7 @@
 #Tomcat publish data
+<<<<<<< HEAD
 #Tue Jun 27 20:08:06 KST 2023
+=======
+#Thu Jun 22 16:00:38 KST 2023
+>>>>>>> 26aa334aca5b587c79c53cf70091921a817081d8
 org.eclipse.jst.jee.server\:ch2=D\:\\sts-bundle\\pivotal-tc-server\\instances\\base-instance\\wtpwebapps\\ch2

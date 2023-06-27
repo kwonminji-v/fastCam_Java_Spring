@@ -40,6 +40,7 @@
 		<item key="updateQualifiedNames" value="false"/>
 		<item key="patterns" value="*"/>
 	</section>
+<<<<<<< HEAD
 	<section name="BuildPathsPropertyPage">
 		<item key="pageIndex" value="2"/>
 	</section>
@@ -48,4 +49,6 @@
 		<item key="GenerateJavadoc" value="false"/>
 		<item key="AccessModifier" value="2"/>
 	</section>
+=======
+>>>>>>> 26aa334aca5b587c79c53cf70091921a817081d8
 </section>
