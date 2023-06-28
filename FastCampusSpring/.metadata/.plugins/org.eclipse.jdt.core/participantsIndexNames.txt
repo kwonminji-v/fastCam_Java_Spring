@@ -1,7 +1,0 @@
-INDEX VERSION 1.131
-<<<<<<< HEAD
-D:\backend\FastCampus\FastCampusSpring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3518962449.index
-=======
-D:\backend\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3518962449.index
->>>>>>> 26aa334aca5b587c79c53cf70091921a817081d8
-\ch2\src\main\java
