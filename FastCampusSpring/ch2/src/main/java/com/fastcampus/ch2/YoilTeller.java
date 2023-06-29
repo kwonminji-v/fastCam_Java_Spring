@@ -26,7 +26,7 @@ public class YoilTeller {
 		String year = request.getParameter("year");
 		String month = request.getParameter("month");
 		String day = request.getParameter("day");
-		
+		//가가가가가가ㅏㄱ가ㅏ가가가각가ㅏㄱ
 		//2. 입력받은 값을 작업
 		//문자열이니깐 숫자로 형변환을 함
 		int yyyy = Integer.parseInt(year);
