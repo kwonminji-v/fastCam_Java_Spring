@@ -13,16 +13,19 @@ import org.springframework.validation.support.BindingAwareModelMap;
 public class MethodCall2 {
 	public static void main(String[] args) throws Exception{
 
-		//1. 
+		//1. YoilTellerMVC의 객체를 생성
 		Class clazz = Class.forName("com.fastcampus.ch2.YoilTellerMVC");
 		Object obj = clazz.newInstance();
 		
+		//2. main 메서드의 정보를 가져옵니다.
 		Method main = clazz.getDeclaredMethod("main", int.class, int.class, int.class, Model.class);
 		
-		Model model = new BindingAwareModelMap();
+		//3. Model을 생성
+		Model model = new BindingAwareModelMap(); //모델의 구현체 model을 생성했습니다.
 		System.out.println("[before] model="+model);
 		
-		// String viewName = obj.main(2021, 10, 1, model);
+		//4. main메서드를 호출 (reflectionAPI 사용을 위해서는 invoke메세드를 사용)
+		// String viewName = obj.main(2021, 10, 1, model); //아래줄과 동일합니다.
 		String viewName = (String)main.invoke(obj, new Object[] { 2021, 10, 1, model }); 	
 		System.out.println("viewName="+viewName);	
 		
@@ -36,7 +39,7 @@ public class MethodCall2 {
 	static void render(Model model, String viewName) throws IOException {
 		String result = "";
 		
-		// 1. 뷰의 내용을 한줄씩 읽어서 하나의 문자열로 만든다.
+		// 1. 뷰의 내용을 한줄씩 읽어서 하나의 문자열로 만든다. (jsp파일이용)
 		Scanner sc = new Scanner(new File("src/main/webapp/WEB-INF/views/"+viewName+".jsp"), "utf-8");
 		
 		while(sc.hasNextLine())
