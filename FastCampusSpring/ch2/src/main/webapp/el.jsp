@@ -1,4 +1,4 @@
-<%@ page contentType="text/html;charset=utf-8"%>
+<%-- <%@ page contentType="text/html;charset=utf-8"%>
 <%@ taglib prefix="c"   uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ page import="com.fastcampus.ch2.*" %>
@@ -68,4 +68,4 @@ name == "남궁성"=true
 name != "남궁성"=false
 name eq "남궁성"=true
 name ne "남궁성"=false
-name.equals("남궁성")=true -->
+name.equals("남궁성")=true --> --%>
