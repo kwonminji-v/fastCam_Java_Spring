@@ -1,12 +1,11 @@
-<%@ page contentType="text/html; charset=utf-8" %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ page session="false" %>
+
+<%@ page contentType="text/html;charset=utf-8" %>
 <html>
 <head>
-	<title>Home</title>
+	<title>YoilTellerMVC</title>
 </head>
 <body>
-
-<P>${year}년 ${month}월 ${day} 일은 ${yoil} 입니다. </P>
+<h2>year=<%=request.getParameter("year")%></h2>
+<h1>${year}년 ${month}월 ${day}일은 ${yoil}요일입니다.</h1>
 </body>
 </html>
